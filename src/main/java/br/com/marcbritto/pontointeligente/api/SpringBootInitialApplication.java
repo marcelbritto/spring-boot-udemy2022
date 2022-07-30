@@ -1,4 +1,4 @@
-package br.com.britto;
+package br.com.marcbritto.pontointeligente.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
