@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import br.com.marcbritto.pontointeligente.api.entities.Lancamento;
 
-//TODO: montar essa query com nome de método
+
 @Transactional(readOnly = true)
 @NamedQueries({
 		@NamedQuery(name = "LancamentoRepository.findByFuncionarioId", 
