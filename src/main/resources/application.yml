@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ponto_inteligente
+    username: root
+    password: Password$1
+  jpa:
+    hibernate:
+      ddl-auto: none
+      use-new-id-generator-mappings: false
+
+#Exibir o stacktrace. Ex: localhost:8080/animes/3?trace=true
+server:
+  error:
+    include-stacktrace: on-param
+
+#Para utilizar, usar: @Value ( "${paginacao.qtd_por_pagina}" )
+#paginacao.qtd_por_pagina=25
+
+#Desabilita a autentica��o
+#security.basic.enabled=false
+#security.ignored=/**
+#management.security.enabled=false
